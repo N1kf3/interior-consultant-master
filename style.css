@@ -1,0 +1,264 @@
+body{
+    background-color: rgba(24, 23, 25, 1);
+    color: white;
+}
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+
+.Nombre_pag{
+    border: 1px;
+    border-style: solid;
+    margin-left: 5%;
+    padding: 0.5%;
+}
+
+.navegacion{
+    display: flex;
+    flex-direction: row;
+    margin-left: 45%;
+}
+
+.Menu_but{
+    display: none;
+}
+
+.menu_mob{
+    position: absolute;
+    visibility: hidden;
+}
+
+
+.home, .Collection, .About, .Contact{
+   margin-left: 50%;
+}
+
+.home:hover, .Collection:hover, .About:hover, .Contact:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+.cuerpo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.Titulo{
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.texto{
+    width:50%;
+    margin-left: 8%;
+    margin-top: 8%;
+}
+
+.desc{
+    width: 75%;
+    font-size: 24px;
+}
+
+.More{
+    font-size: 18px;
+    align-items: center;
+}
+
+.arrow{
+    font-size: 25px;
+    margin-left: 20px;
+    width: 100px;
+    vertical-align: middle;
+}
+
+.conjunto{
+    margin-left: 15%;
+    width: 100%;
+}
+
+.imagen{
+    width: 90%;
+}
+
+.Flotante{
+    width: 25%;
+    position: absolute;
+    left: 65%;
+    top: 80%;
+    background-color: rgba(24, 23, 25, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Designer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    align-items: center;
+}
+
+.icon{
+    width: 50px;
+    border-radius: 25px;
+    margin-left: 10%;
+}
+
+.Info_de{
+    margin-left: 5%;
+}
+
+.Name{
+    font-size: 18px;
+}
+
+.Role{
+    font-size: 14px;
+    font-weight: 500;
+    color: #828282;
+    
+}
+
+.design_by{
+    margin-left: 10%;
+    margin-top: 5%;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 10%;
+}
+
+.info_pag{
+    color: rgba(189, 189, 189, 1);
+    font-weight: 500;
+    font-size: 14px;
+    width: 287px;
+    height: 17px;   
+    margin-left: 45%;
+    margin-top: 308px;
+    margin-bottom: 24px;    
+}
+
+.username{
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+@media only screen and (max-width: 620px) {
+    body{
+        margin-right: 30px;
+    }
+
+    .Nombre_pag{
+        padding-top: 2.2%;
+    }
+
+    .nav_bar{
+        margin-top: 5%;
+        margin-right: 0;
+    }
+
+    .navegacion{
+        margin-left: 60%;
+    }
+
+    .home, .Collection, .About, .Contact{
+        display: none;
+    }
+
+    .icons{
+        display: inline;
+        font-size: 32px;
+    }
+
+    .icons:hover{
+        cursor: pointer;
+    }
+
+    .cuerpo{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+
+    .texto{
+        margin-left: 5%;
+        margin-top: 8%;
+        width: 100%;
+    }
+
+    .Titulo{
+        font-size: 36px;
+    }
+
+    .desc{
+        width: 70%;
+        font-size: 14px;
+        margin-bottom: 8%;
+    }
+
+    .conjunto{
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+
+    .imagen{
+        width: 98%;
+    }
+
+    .Flotante{
+        left: 20%;
+        top: 90%;
+        width: 70%;
+    }
+
+    .info_pag{
+        margin-left: 35%;
+       
+    }
+    .Menu_but{
+        display: inline;
+    }
+
+    .menu_mob{
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        top: 0;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .menu_close{
+        margin-top: 5%;
+        text-align: right;
+        padding-right: 5%;
+        margin-bottom: 20%;
+    }
+
+    .menu_home, .menu_Collection, .menu_About, .menu_Contact{
+        text-align: center;
+        margin-bottom: 10%;
+    }
+    .menu_home:hover, .menu_Collection:hover, .menu_About:hover, .menu_Contact:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        text-underline-offset: 1rem;
+        
+    }
+    .menu_close:hover{
+        cursor: pointer;
+    }
+
+
+    .design_by{
+        font-size: 18px;
+        width: 50%;       
+    }
+
+
+
+
+}
